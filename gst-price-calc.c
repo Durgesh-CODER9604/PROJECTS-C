@@ -10,6 +10,7 @@ int main(){
 	scanf("%d",&price);
 	
 	gst(price);
+	printf("\nthe orginal price =>%d\n",price);
 	getch();
 	return 0;
 }
@@ -18,3 +19,4 @@ void gst(int price){
 	g=price+(price*0.81);
 	printf("the price after adding 18%% GST :%.2f",g);
 }
+
